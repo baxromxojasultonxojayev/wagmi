@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+h1,
+h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.wallet-section,
+.token-section {
+  margin-bottom: 30px;
+}
+
+.connect-btn,
+.check-btn {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.connect-btn:hover,
+.check-btn:hover {
+  background-color: #45a049;
+}
+
+.wallet-info,
+.token-info {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.wallet-info p,
+.token-info p {
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.token-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
